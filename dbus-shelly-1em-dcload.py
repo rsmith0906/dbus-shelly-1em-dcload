@@ -220,8 +220,6 @@ class DbusShelly1pmService:
 
       #update lastupdate vars
       self._lastUpdate = time.time()
-
-      inverter_phase = str(config['DEFAULT']['Phase'])
     except Exception as e:
        logging.critical('Error at %s', '_update', exc_info=e)
        meter_data = None

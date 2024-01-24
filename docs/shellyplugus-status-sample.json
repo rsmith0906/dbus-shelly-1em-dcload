@@ -1,0 +1,60 @@
+{
+    "id": 0,
+    "src": "shellyplugus-aaaaaaaaaaaa",
+    "result": {
+        "ble": {},
+        "cloud": {
+            "connected": true
+        },
+        "mqtt": {
+            "connected": false
+        },
+        "switch:0": {
+            "id": 0,
+            "source": "init",
+            "output": false,
+            "apower": 0.0,
+            "voltage": 120.3,
+            "current": 0.000,
+            "aenergy": {
+                "total": 0.000,
+                "by_minute": [
+                    0.000,
+                    0.000,
+                    0.000
+                ],
+                "minute_ts": 1705900764
+            },
+            "temperature": {
+                "tC": 34.5,
+                "tF": 94.1
+            }
+        },
+        "sys": {
+            "mac": "CCDBA7D1178C",
+            "restart_required": false,
+            "time": "23:19",
+            "unixtime": 1705900766,
+            "uptime": 3035,
+            "ram_size": 261176,
+            "ram_free": 121764,
+            "fs_size": 458752,
+            "fs_free": 151552,
+            "cfg_rev": 10,
+            "kvs_rev": 0,
+            "schedule_rev": 0,
+            "webhook_rev": 0,
+            "available_updates": {},
+            "reset_reason": 1
+        },
+        "wifi": {
+            "sta_ip": "192.168.1.221",
+            "status": "got ip",
+            "ssid": "GoogleNet",
+            "rssi": -49
+        },
+        "ws": {
+            "connected": false
+        }
+    }
+}
